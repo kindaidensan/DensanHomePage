@@ -1,13 +1,14 @@
 var canvas = document.getElementById("webGame");
 var ctx = canvas.getContext("2d");
 var ballRadius = 6;
-var x = canvas.width/2;
-var y = canvas.height-30;
+var xBoll = canvas.width/2;
+var yBoll = canvas.height-30;
 var dx = 2;
 var dy = -2;
 var paddleHeight = 6;
 var paddleWidth = 75;
 var paddleX = (canvas.width-paddleWidth)/2;
+var paddleY = paddleHeight + 10;
 var rightPressed = false;
 var leftPressed = false;
 
@@ -44,23 +45,23 @@ function keyUpHandler(e) {
 }
 
 /**
- * ボールの描画.
+ * バーの描画.
  */
-function drawBall() {
+function drawPaddle() {
     ctx.beginPath();
-    ctx.arc(x, y, ballRadius, 0, Math.PI*2);
+    ctx.rect(paddleX, canvas.height-paddleY,  paddleWidth, paddleHeight);
     ctx.fillStyle = "#0095DD";
     ctx.fill();
     ctx.closePath();
 }
 
 /**
- * バーの描画.
+ * ボールの描画.
  */
-function drawPaddle() {
+function drawBall() {
     ctx.beginPath();
-    ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
-    ctx.fillStyle = "#0095DD";
+    ctx.arc(xBoll, yBoll, ballRadius, 0, Math.PI*2);
+    ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
 }
@@ -74,10 +75,25 @@ function draw() {
     drawBall();
     drawPaddle();
     
-    if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
+    if(xBoll + dx > canvas.width-ballRadius || xBoll + dx < ballRadius) {
         dx = -dx;
     }
-    if(y + dy > canvas.height-ballRadius || y + dy < ballRadius) {
+    
+    // // バートの当たり判定作りたかったけど地面にぶっ刺さってerror大量に掃くから断念。
+    // // 後で調べる
+    // if(yBoll + dy + paddleY< ballRadius) {
+    //     dy = -dy;
+    // }else if(yBoll + dy > canvas.height - ballRadius){
+    //    if(xBoll > paddleX && x < paddleX + paddleWidth){
+    //        dy = -dy;
+    //    }
+    //    else{
+    //         alert("GAME OVER");
+    //         document.location.reload();
+    //    }
+    // }
+
+    if(yBoll + dy > canvas.height-ballRadius || yBoll + dy < ballRadius) {
         dy = -dy;
     }
     
@@ -88,8 +104,11 @@ function draw() {
         paddleX -= 7;
     }
     
-    x += dx;
-    y += dy;
+    xBoll += dx;
+    yBoll += dy;
 }
 
+/**
+ * main文みたいなもん(多分)
+ */
 setInterval(draw, 10);
