@@ -11,9 +11,16 @@ var paddleX = (canvas.width-paddleWidth)/2;
 var rightPressed = false;
 var leftPressed = false;
 
+/**
+ * ここの２つはkeyが押されたとき,離されたときのイベント発火を検知するためのもの.
+ */
 document.addEventListener("keydown", keyDownHandler, false);
 document.addEventListener("keyup", keyUpHandler, false);
 
+/**
+ * バーの左右判定.これはkey押されたとき用.
+ * @param  e：key入力情報
+ */
 function keyDownHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = true;
@@ -23,6 +30,10 @@ function keyDownHandler(e) {
     }
 }
 
+/**
+ * バー左右判定.これはkeyが離されたたき.
+ * @param e: key入力情報.
+ */
 function keyUpHandler(e) {
     if(e.keyCode == 39) {
         rightPressed = false;
@@ -32,6 +43,9 @@ function keyUpHandler(e) {
     }
 }
 
+/**
+ * ボールの描画.
+ */
 function drawBall() {
     ctx.beginPath();
     ctx.arc(x, y, ballRadius, 0, Math.PI*2);
@@ -40,6 +54,9 @@ function drawBall() {
     ctx.closePath();
 }
 
+/**
+ * バーの描画.
+ */
 function drawPaddle() {
     ctx.beginPath();
     ctx.rect(paddleX, canvas.height-paddleHeight, paddleWidth, paddleHeight);
@@ -48,6 +65,10 @@ function drawPaddle() {
     ctx.closePath();
 }
 
+/**
+ * 全体の描画(バー,ボール,表示領域)
+ * また,ボールの跳ね返りについても司る.
+ */
 function draw() {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     drawBall();
