@@ -1,0 +1,42 @@
+@charset "utf-8"
+
+  body {
+    position: relative;
+    overflow: hidden;
+    visibility: hidden;
+  }
+
+/* #container
+ ---------------------- */
+  #container {
+    top: 0;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+  }
+
+/* .stageBase
+ ---------------------- */
+  .stageBase {
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .stageBase .fieldWrap {
+    text-align: center;
+  }
+
+  #stage1 {
+    background-color: skyblue;
+  }
+  #stage2 {
+    background-color: limegreen;
+  }
+  #stage3 {
+    background-color: orange;
+  }
+
+/* .stageSlides
+ ---------------------- */
