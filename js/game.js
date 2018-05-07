@@ -1,6 +1,6 @@
 var canvas = document.getElementById("webGame");
 var ctx = canvas.getContext("2d");
-var ballRadius = 6;
+var ballRadius = 4;
 var xBoll = canvas.width/2;
 var yBoll = canvas.height-30;
 var dx = 2;
@@ -60,7 +60,7 @@ function drawPaddle() {
  */
 function drawBall() {
     ctx.beginPath();
-    ctx.arc(xBoll, yBoll, ballRadius, 0, Math.PI*2);
+    ctx.arc(xBoll, yBoll, ballRadius, 0, Math.PI*2, true);
     ctx.fillStyle = "red";
     ctx.fill();
     ctx.closePath();
