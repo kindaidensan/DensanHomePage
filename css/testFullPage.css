@@ -1,0 +1,44 @@
+body {
+    background: whitesmoke;
+    color: #444;
+    font-size: 16px;
+    font-family: 'メイリオ', Meiryo, 'ヒラギノ角ゴ Pro W3', 'Hiragino Kaku Gothic Pro', Helvetica, Arial, 'ＭＳ Ｐゴシック', sans-serif;
+    line-height: 1.42857;
+}
+
+/* ヘッダー */
+
+.header {
+    z-index: 120;
+    padding: 24px 0;
+    width: 100%;
+    height: auto;
+    border-bottom: #ccd1d9 solid 2px;
+    background: whitesmoke;
+    color: #333;
+    text-align: center;
+    margin-top: -1vw;
+}
+
+.header-title {
+    margin: 0;
+    font-size: 2.4em;
+}
+
+.footer {
+    padding: 12px 0;
+    border-top: #ccd1d9 solid 1px;
+    background:aliceblue;
+    text-align: center;
+    clear: both;
+}
+
+.footer > h{
+  color: #666;
+  font-size: 0.6em;
+}
+
+.footer-copyright {
+    color: #999;
+    font-size: 0.8em;
+}
