@@ -7,3 +7,15 @@ html,body {
     height:100%;
     width:100%;
 }
+.movie{
+    position: relative;
+}
+.movie p{
+    position: absolute;
+    color: white;
+    top: 0;
+    left: 0;
+    font-weight: bold;
+    font-size: 2em;
+    font-family : Quicksand, sans-serif;
+}
