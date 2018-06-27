@@ -3,6 +3,9 @@ html,body {
     margin:0px;
     padding:0px
 }
+a {text-decoration: none}
+a:hover{color: skyblue; font-size: 1.2em;}
+a:visited{color: white;}
 #video {
     height:100%;
     width:100%;
@@ -17,5 +20,45 @@ html,body {
     left: 0;
     font-weight: bold;
     font-size: 2em;
-    font-family : Quicksand, sans-serif;
+    font-family : sans-serif;
+}
+.movie h1{
+    position: absolute;
+    color: white;
+    top: 100px;
+    left: 0;
+    font-size: 1.5em;
+    font-family :sans-serif;
+} 
+.movie h2{
+    position: absolute;
+    color: white;
+    top: 160px;
+    left: 0;
+    font-size: 1.5em;
+    font-family :sans-serif;
+}
+.movie h3{
+    position: absolute;
+    color: white;
+    top: 220px;
+    left: 0;
+    font-size: 1.5em;
+    font-family :sans-serif;
+}
+.movie h4{
+    position: absolute;
+    color: white;
+    top: 280px;
+    left: 0;
+    font-size: 1.5em;
+    font-family :sans-serif;
+}
+.movie h5{
+    position: absolute;
+    color: white;
+    top: 340px;
+    left: 0;
+    font-size: 1.5em;
+    font-family :sans-serif;
 }
