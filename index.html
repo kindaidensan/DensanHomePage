@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 
 <html>
-    <head lang="ja">
-        <meta chraset="utf-8">
-        <title>電子計算機研究会</title>
-        <link rel="stylesheet" type="text/css" href="./css/default.css">
-    </head>
+  <head lang="ja">
+    <meta chraset="utf-8">
+      <title>電子計算機研究会</title>
+      <link rel="stylesheet" href="./css/normalize.css">
+      <link rel="stylesheet" href="./css/fullpage.css">
+      <link rel="stylesheet" type="text/css" href="./css/default.css">
+  </head>
 
-    <body>
+  <body>
+    <div id="fullpage">
+      <div class="section">
         <div class="movie">
-            <video id="video" muted autoplay loop></video>
-            <script src="./js/movie.js"></script>
-            <p>近畿大学電子計算機研究会</p>
-            
-            <h1><a href="#">Web班</a></h1>
-            <h2><a href="#">Unity班</a></h2>
-            <h3><a href="#">Java班</a></h3>
-            <h4><a href="#">Ios班</a></h4>
-            <h5><a href="#">3D班</a></h5>
-            
+          <video id="video" muted autoplay loop></video>
+          <script src="./js/movie.js"></script>
+          <p>近畿大学電子計算機研究会</p>
+
+          <h1><a href="#">Web班</a></h1>
+          <h2><a href="#">Unity班</a></h2>
+          <h3><a href="#">Java班</a></h3>
+          <h4><a href="#">Ios班</a></h4>
+          <h5><a href="#">3D班</a></h5>
         </div>
-    </body>
+      </div>
+      <div class="section">
+        section2
+      </div>
+      <div class="section">
+        section3
+      </div>
+    </div>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="./js/easings.min.js"></script>
+    <script type="text/javascript" src="./js/scrolloverflow.min.js"></script>
+    <script type="text/javascript" src="./js/fullpage.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
 </html>
