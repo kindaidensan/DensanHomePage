@@ -1,6 +1,6 @@
-a {text-decoration: none}
-a:hover{color: skyblue; font-size: 1.2em;}
+a {text-decoration: none;}
 a:visited{color: white;}
+a:hover{color: skyblue; font-size: 1.2em;}
 
 .section {
   overflow: hidden;
