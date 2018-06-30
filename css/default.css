@@ -34,8 +34,11 @@ a:hover{color: skyblue; font-size: 1.2em;}
 }
 
 .layer p {
-  font-size: 2em;
+  position: relative;
+  font-size: 3.5em;
   font-weight: bold;
+  text-align: center;
+  right:10%;
   /* color: white; */
 }
 
@@ -47,7 +50,7 @@ h2{
 #section0 .about{
   position: absolute;
   z-index: 5;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.3);
   color: white;
   filter: blur();
   padding-left: 10px;
@@ -55,7 +58,7 @@ h2{
   width: 56%;
   height: 40%;
   right: 5%;
-  bottom: 10%;
+  bottom: 22%;
   min-width: 800px;
 }
 
