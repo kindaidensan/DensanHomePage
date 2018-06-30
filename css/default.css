@@ -39,6 +39,11 @@ a:hover{color: skyblue; font-size: 1.2em;}
   /* color: white; */
 }
 
+h2{
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+}
 #section0 .about{
   position: absolute;
   z-index: 5;
