@@ -1,14 +1,8 @@
-/* html,body {
-    height:100%;
-    margin:0px;
-    padding:0px
-} */
 a {text-decoration: none}
 a:hover{color: skyblue; font-size: 1.2em;}
 a:visited{color: white;}
 
 .section {
-  /* text-align: center; */
   overflow: hidden;
 }
 
@@ -25,8 +19,6 @@ a:visited{color: white;}
     background-size: contain;
     object-fit: cover;
     z-index: 3;
-    /* min-width: 100%; */
-    /* min-height: 100%; */
 }
 
 #section0 {
@@ -46,56 +38,3 @@ a:visited{color: white;}
   font-weight: bold;
   /* color: white; */
 }
-
-/* .movie{
-    position: relative;
-}
-.movie p{
-    position: absolute;
-    color: white;
-    top: 0;
-    left: 0;
-    font-weight: bold;
-    font-size: 2em;
-    font-family : sans-serif;
-}
-.movie h1{
-    position: absolute;
-    color: white;
-    top: 12%;
-    left: 5px;
-    font-size: 1.5em;
-    font-family :sans-serif;
-}
-.movie h2{
-    position: absolute;
-    color: white;
-    top: 21%;
-    left: 5px;
-    font-size: 1.5em;
-    font-family :sans-serif;
-}
-.movie h3{
-    position: absolute;
-    color: white;
-    top: 30%;
-    left: 5px;
-    font-size: 1.5em;
-    font-family :sans-serif;
-}
-.movie h4{
-    position: absolute;
-    color: white;
-    top: 39%;
-    left: 5px;
-    font-size: 1.5em;
-    font-family :sans-serif;
-}
-.movie h5{
-    position: absolute;
-    color: white;
-    top: 48%;
-    left: 5px;
-    font-size: 1.5em;
-    font-family :sans-serif;
-} */
