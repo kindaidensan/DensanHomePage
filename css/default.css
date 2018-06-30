@@ -7,18 +7,18 @@ a:hover{color: skyblue; font-size: 1.2em;}
 }
 
 #video {
-    position:absolute;
-    right:0;
-    bottom:0;
-    top:0;
-    right:0;
-    height:100%;
-    width:100%;
-    background-size: 100% 100%;
-    background-position: center center;
-    background-size: contain;
-    object-fit: cover;
-    z-index: 3;
+  position:absolute;
+  right:0;
+  bottom:0;
+  top:0;
+  right:0;
+  height:100%;
+  width:100%;
+  background-size: 100% 100%;
+  background-position: center center;
+  background-size: contain;
+  object-fit: cover;
+  z-index: 3;
 }
 
 #section0 {
@@ -43,4 +43,25 @@ h2{
   font-size: 4em;
   font-weight: bold;
   text-align: center;
+}
+#section0 .about{
+  position: absolute;
+  z-index: 5;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  filter: blur();
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 56%;
+  height: 40%;
+  right: 5%;
+  bottom: 10%;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.7em;
 }
