@@ -1,3 +1,5 @@
 $(document).ready(function() {
-  $('#fullpage').fullpage();
+  $('#fullpage').fullpage({
+    anchors: ['top', 'web', 'unity', 'java', 'ios', '3d'],
+  });
 });
