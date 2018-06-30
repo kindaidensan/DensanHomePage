@@ -1,18 +1,53 @@
-html,body {
+/* html,body {
     height:100%;
     margin:0px;
     padding:0px
-}
+} */
 a {text-decoration: none}
 a:hover{color: skyblue; font-size: 1.2em;}
 a:visited{color: white;}
+
+.section {
+  /* text-align: center; */
+  overflow: hidden;
+}
+
 #video {
+    position:absolute;
+    right:0;
+    bottom:0;
+    top:0;
+    right:0;
     height:100%;
     width:100%;
-    min-width: 100%;
-    min-height: 100%;
+    background-size: 100% 100%;
+    background-position: center center;
+    background-size: contain;
+    object-fit: cover;
+    z-index: 3;
+    /* min-width: 100%; */
+    /* min-height: 100%; */
 }
-.movie{
+
+#section0 {
+  overflow: hidden;
+}
+
+#section0 .layer{
+  position: absolute;
+  z-index: 4;
+  width: 100%;
+  left: 10%;
+  top: 10%;
+}
+
+.layer p {
+  font-size: 2em;
+  font-weight: bold;
+  /* color: white; */
+}
+
+/* .movie{
     position: relative;
 }
 .movie p{
@@ -63,4 +98,4 @@ a:visited{color: white;}
     left: 5px;
     font-size: 1.5em;
     font-family :sans-serif;
-}
+} */
