@@ -70,6 +70,12 @@ h2{
   font-size: 1.7em;
 }
 
+.slide{
+  background: skyblue;
+  text-align: center;
+}
+
+/* -------------------> web <-------------------- */
 #Web{
   position: relative;
   background: url("../img/Web.jpg");
@@ -77,6 +83,14 @@ h2{
   height: 100%;
   background-size: cover;
 }
+
+.web{
+  background: orange;
+  margin: 10%;
+  height: 100%;
+}
+
+/* -------------------> web <-------------------- */
 
 #Game{
   position: relative;
