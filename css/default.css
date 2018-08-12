@@ -43,9 +43,13 @@ a:hover{color: skyblue; font-size: 1.2em;}
 }
 
 h2{
-  font-size: 4em;
+  font-size: 3em;
   font-weight: bold;
   text-align: center;
+  text-shadow: 2px 2px 1px #fff,
+             -2px 2px 1px #fff,
+             2px -2px 1px #fff,
+             -2px -2px 1px #fff;
 }
 #section0 .about{
   position: absolute;
@@ -72,7 +76,6 @@ h2{
 
 .slide{
   background: skyblue;
-  text-align: center;
 }
 
 /* -------------------> web <-------------------- */
@@ -85,8 +88,9 @@ h2{
 }
 
 .web{
+  text-align: center;
   background: orange;
-  margin: 10%;
+  margin: 8%;
   height: 100%;
 }
 
