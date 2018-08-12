@@ -75,7 +75,9 @@ h2{
 }
 
 .slide{
-  background: skyblue;
+  /* background: skyblue; */
+  height: 100%;
+  position: relative;
 }
 
 /* -------------------> web <-------------------- */
@@ -89,9 +91,12 @@ h2{
 
 .web{
   text-align: center;
-  background: orange;
-  margin: 8%;
+  background: rgba(200, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 5%;
   height: 100%;
+  /* padding-bottom:100px; */
+
 }
 
 /* -------------------> web <-------------------- */
