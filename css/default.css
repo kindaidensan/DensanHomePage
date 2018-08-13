@@ -99,6 +99,13 @@ h2{
   margin-bottom: 15%;
 }
 
+#web1 p{
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 45px;
+}
 /* -------------------> web <-------------------- */
 
 /* -------------------> ゲーム開発 <-------------------- */
