@@ -193,13 +193,24 @@ h2{
 }
 
 .program{
-  text-align: center;
+  /* text-align: center; */
   background: rgba(255, 255, 100, 0.8);
   border-radius: 5px;
   margin: 5%;
-  height: 80%;
+  height: 70%;
   /* padding-bottom:100px; */
   margin-bottom: 15%;
+  padding: 10px 70px 0 70px;
+}
+
+.program h3{
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+.program p{
+  font-size: 25px;
+  line-height: 40px;
 }
 /* -------------------> プログラミング <-------------------- */
 
