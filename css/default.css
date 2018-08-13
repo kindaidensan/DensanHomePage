@@ -91,7 +91,7 @@ h2{
 
 .web{
   text-align: center;
-  background: rgba(200, 255, 255, 0.8);
+  background: rgba(255, 180, 130, 0.8);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
@@ -101,7 +101,7 @@ h2{
 
 /* -------------------> web <-------------------- */
 
-/* -------------------> game <-------------------- */
+/* -------------------> ゲーム開発 <-------------------- */
 #Game{
   position: relative;
   background: url("../img/program.jpg");
@@ -112,15 +112,26 @@ h2{
 }
 
 .game{
-  text-align: center;
-  background: rgba(200, 255, 255, 0.8);
+  /* text-align: center; */
+  background: rgba(255, 160, 220, 0.8);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
   /* padding-bottom:100px; */
   margin-bottom: 15%;
+  padding: 10px 70px 0 70px;
 }
-/* -------------------> game <-------------------- */
+
+.game h3{
+  font-size: 45px;
+  margin-top: 30px;
+}
+
+.game p{
+  font-size: 30px;
+}
+
+/* -------------------> ゲーム開発 <-------------------- */
 
 /* -------------------> 映像 <-------------------- */
 #Movie{
@@ -155,7 +166,7 @@ h2{
 
 .model{
   text-align: center;
-  background: rgba(200, 255, 255, 0.8);
+  background: rgba(180, 255, 180, 0.8);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
@@ -176,7 +187,7 @@ h2{
 
 .program{
   text-align: center;
-  background: rgba(200, 255, 255, 0.8);
+  background: rgba(255, 255, 100, 0.8);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
@@ -197,11 +208,12 @@ h2{
 
 .detail{
   text-align: center;
-  background: rgba(200, 255, 255, 0.8);
+  background: rgba(242, 238, 211, 0.8);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
   /* padding-bottom:100px; */
   margin-bottom: 15%;
 }
+
 /* -------------------> 詳細 <-------------------- */
