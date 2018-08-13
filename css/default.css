@@ -96,9 +96,16 @@ h2{
   margin: 5%;
   height: 80%;
   /* padding-bottom:100px; */
-  margin-bottom: 20%;
+  margin-bottom: 15%;
 }
 
+#web1 p{
+  font-size: 1.3em;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 5px;
+  line-height: 45px;
+}
 /* -------------------> web <-------------------- */
 
 #Game{
