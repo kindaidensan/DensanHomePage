@@ -108,6 +108,7 @@ h2{
 }
 /* -------------------> web <-------------------- */
 
+/* -------------------> game <-------------------- */
 #Game{
   position: relative;
   background: url("../img/program.jpg");
@@ -116,3 +117,98 @@ h2{
   background-size: cover;
   /* opacity: 0.6; */
 }
+
+.game{
+  text-align: center;
+  background: rgba(200, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+}
+/* -------------------> game <-------------------- */
+
+/* -------------------> 映像 <-------------------- */
+#Movie{
+  position: relative;
+  background: url("../img/hogehoge.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* opacity: 0.6; */
+}
+
+.movie{
+  text-align: center;
+  background: rgba(200, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+}
+/* -------------------> 映像 <-------------------- */
+
+/* -------------------> モデリング <-------------------- */
+#Model{
+  position: relative;
+  background: url("../img/hogehoge.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* opacity: 0.6; */
+}
+
+.model{
+  text-align: center;
+  background: rgba(200, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+}
+/* -------------------> モデリング <-------------------- */
+
+/* -------------------> プログラミング <-------------------- */
+#Program{
+  position: relative;
+  background: url("../img/hogehoge.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* opacity: 0.6; */
+}
+
+.program{
+  text-align: center;
+  background: rgba(200, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+}
+/* -------------------> プログラミング <-------------------- */
+
+/* -------------------> 詳細 <-------------------- */
+#Detail{
+  position: relative;
+  background: url("../img/hogehoge.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  /* opacity: 0.6; */
+}
+
+.detail{
+  text-align: center;
+  background: rgba(200, 255, 255, 0.8);
+  border-radius: 5px;
+  margin: 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+}
+/* -------------------> 詳細 <-------------------- */
