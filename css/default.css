@@ -111,7 +111,7 @@ h2{
 /* -------------------> ゲーム開発 <-------------------- */
 #Game{
   position: relative;
-  background: url("../img/program.jpg");
+  background: url("../img/gameDev.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
@@ -217,7 +217,7 @@ h2{
 /* -------------------> 詳細 <-------------------- */
 #Detail{
   position: relative;
-  background: url("../img/hogehoge.jpg");
+  background: url("../img/program.png");
   width: 100%;
   height: 100%;
   background-size: cover;
