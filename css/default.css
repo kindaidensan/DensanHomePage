@@ -267,4 +267,11 @@ h2{
   margin-bottom: 15%;
 }
 
+#detail1{
+  position: absolute;
+  background: url("../img/new_Densan_position.png");
+  width: 80%;
+  height: auto;
+}
+
 /* -------------------> 詳細 <-------------------- */
