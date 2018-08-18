@@ -203,6 +203,28 @@ h2{
   padding: 40px 70px 0 70px;
 }
 
+#program1{
+  /* text-align: center; */
+  background: rgba(255, 255, 100, 0.8);
+  border-radius: 5px;
+  margin: 0 5% 5% 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+  padding: 40px 70px 0 70px;
+}
+
+.program{
+  /* text-align: center; */
+  background: rgba(255, 255, 100, 0.8);
+  border-radius: 5px;
+  margin: 5% 5% 0 5%;
+  height: 80%;
+  /* padding-bottom:100px; */
+  margin-bottom: 15%;
+  padding: 40px 70px 0 70px;
+}
+
 .program h3{
   font-size: 45px;
   margin-top: 30px;
