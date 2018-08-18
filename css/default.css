@@ -90,19 +90,19 @@ h2{
 }
 
 .web{
-  text-align: center;
+  /* text-align: center; */
   background: rgba(247, 255, 130, 0.89);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
   /* padding-bottom:100px; */
   margin-bottom: 15%;
+  padding: 10px 70px 0 70px;
 }
 
 #web1 p{
-  font-size: 1.3em;
+  font-size: 30px;
   font-weight: bold;
-  text-align: center;
   letter-spacing: 5px;
   line-height: 45px;
 }
@@ -151,18 +151,25 @@ h2{
 }
 
 .movie{
-  text-align: center;
+  /* text-align: center; */
   background: rgba(3, 3, 131, 0.301);
   border-radius: 5px;
   margin: 5%;
   height: 80%;
   /* padding-bottom:100px; */
   margin-bottom: 15%;
+  padding: 10px 70px 0 70px;
 }
 
-#movie1{
-  font-size: 20px;
+.movie h3{
+  font-size: 45px;
+  margin-top: 30px;
 }
+
+.movie p{
+  font-size: 30px;
+}
+
 /* -------------------> 映像 <-------------------- */
 
 /* -------------------> モデリング <-------------------- */
