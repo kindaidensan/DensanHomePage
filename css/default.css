@@ -250,24 +250,24 @@ h2{
 /* -------------------> 詳細 <-------------------- */
 #Detail{
   position: relative;
-  background: url("../img/csgbg.jpg");
+  background-image: url("../img/csgbg.jpg");
   width: 100%;
   height: 100%;
   background-size: cover;
   /* opacity: 0.6; */
 }
 
-.detail{
-  position: absolute;
-  background: url("../img/new_Densan_position.png");
-  /* width: 40%;
-  height: auto; */
-}
 
 #detail1{
   position: relative;
   text-align: center;
-  background: rgba(242, 238, 211, 0.8);
+  background-image: url("../img/new_Densan_position.png");
+  background-size: 700px;
+  background-position-x: right;
+  background-position-y: bottom;
+  background-repeat: no-repeat;
+  background-color: rgba(242, 238, 211, 0.8);
+  /* background: rgba(242, 238, 211, 0.8); */
   border-radius: 5px;
   margin: 5%;
   height: 80%;
