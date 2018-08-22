@@ -75,7 +75,7 @@ h2{
 }
 
 .slide{
-  background: skyblue;
+  /* background: skyblue; */
   height: 100%;
   position: relative;
 }
